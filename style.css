@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(235, 145, 28);
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #444444;
+    text-decoration: underline;
+    position: relative;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.position{
+    aspect-ratio: 1/1;
+    position: absolute;
+    inset: 0.5em;
+    margin: auto;
+}
+.container{
+    position: fixed;
+    width: 30em;
+}
+
+.clock{
+    background-color: #282828;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.markers{
+   width: 2%;
+   background: #F7F7F7;
+   aspect-ratio: 1/45;
+   border-radius: 30%;
+}
+.four-sides{
+    width: 4%;
+    background: #F76E11;
+    aspect-ratio: 2/45;
+    border-radius: 20%;
+}
+#m-3-9{
+    transform: rotate(90deg);
+}
+#m-1-7{
+    transform: rotate(30deg);
+}
+#m-2-8{
+    transform: rotate(60deg);
+}
+#m-4-10{
+    transform: rotate(-30deg);
+}
+#m-5-11{
+    transform: rotate(-60deg);
+}
+.clock-face{
+    background: #282828;
+    width: 75%;
+    border-radius: 50%;
+}
+.clock-hand{
+    width: 2em;
+    background: linear-gradient(#F76E11 50%, transparent 50%);
+}
+.hours{
+    width: 3%;
+    border-radius: 20px;
+    aspect-ratio: 1/25;
+}
+.minutes{
+    width: 2%;
+    border-radius: 20px;
+    aspect-ratio: 1/45;
+    background: linear-gradient(rgb(235, 145, 28) 50%, transparent 50%);
+}
+.seconds{
+    width: 0.5%;
+    border-radius: 20px;
+    aspect-ratio: 1/192;
+    background: linear-gradient(#DA1212 50%, transparent 50%);
+}
+.dot{
+    width: 7%;
+    border-radius: 50%;
+    background: #F7F7F7;
+}
+
+p{
+    color: #282828;
+    font-size: 1rem;
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    bottom: 11%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.ref{
+    font-size: 0.7em;
+    bottom: 4%;
+    color: #ffffff89;
+}
+
+a{
+    text-decoration: .1em #282828 underline;
+    color: #282828;
+}
